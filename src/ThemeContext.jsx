@@ -9,44 +9,49 @@ import tema2Dark from '!!raw-loader!@gmcotta/design-tokens/dist/css/marca-a/tema
 export const ThemeContext = createContext();
 
 export function ThemeProvider({
-  brand, themeName, mode, children
+  brand,
+  themeName,
+  mode,
+  children
 }) {
+
   const [theme, setTheme] = useState(null);
 
   useEffect(() => {
-    const tagStyle = document.createElement('style');
+    const tagStyle = document.createElement("style");
     tagStyle.setAttribute('id', 'theme-style');
     document.head.appendChild(tagStyle);
-  }, []);
+  }, [])
 
   useEffect(() => {
-    changeTheme(brand, theme, mode);
-  }, [brand, theme, mode, changeTheme]);
+    changeTheme(brand, themeName, mode)
+  }, [brand, themeName, mode])
 
-  // TODO: verificar a performance, pois está renderizando a página toda hora
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   function changeTheme(brand, theme, mode) {
     const themeStyle = document.getElementById('theme-style');
+
     themeStyle.innerHTML = '';
-    if (theme === 'theme-1') {
-      mode === 'dark' 
+
+    if(theme === 'tema-1'){
+      (mode === 'dark')
         ? themeStyle.appendChild(document.createTextNode(tema1Dark))
         : themeStyle.appendChild(document.createTextNode(tema1Light));
     }
-    if (theme === 'theme-2') {
-      mode === 'dark' 
+    if (theme === 'tema-2')  {
+      (mode === 'dark')
         ? themeStyle.appendChild(document.createTextNode(tema2Dark))
         : themeStyle.appendChild(document.createTextNode(tema2Light));
     }
+
     setTheme({
       brand,
-      themeName,
+      themeName: theme,
       mode
     });
   }
 
   function handleTheme(newTheme = themeName, newBrand = brand, newMode = mode) {
-    changeTheme(newTheme, newBrand, newMode);
+    changeTheme(newBrand, newTheme, newMode);
   }
 
   return (
