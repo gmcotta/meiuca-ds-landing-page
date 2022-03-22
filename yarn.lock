@@ -1148,21 +1148,21 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@gmcotta/design-system-core@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@gmcotta/design-system-core/-/design-system-core-1.1.3.tgz#8539eedf86a14d987f6f381ee925eaccd03c4529"
-  integrity sha512-+kP2JZTXC34BPlnvAGxjkfl8jBf3ph+PSVNuLro5DFmDZWQGVnSoBByVVWLaMtgjbktvWTa7KID+goOlLxxzYw==
+"@gmcotta/design-system-core@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@gmcotta/design-system-core/-/design-system-core-1.1.4.tgz#08e457adcdcc65932bc529c7e4028cb2c34f558e"
+  integrity sha512-qgqKHeK0lzwS3owyjA5rb6vcy1KMziJhPKGnFt4GOdO6eTTYDGUVyxJpiFguxipOnE9MTJnNsJWg3oRi62hUcA==
   dependencies:
     "@gmcotta/design-tokens" "^1.0.2"
     "@gmcotta/meiuca-assets" "^1.0.0"
     lit "^2.2.0"
 
-"@gmcotta/design-system-team-lp@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@gmcotta/design-system-team-lp/-/design-system-team-lp-1.1.0.tgz#83d550c579c4e3a6fd72bb283e12370bf3556a8c"
-  integrity sha512-PMDTuYiT4sq9XGZA1EPLv9skfZc+e0Q8gvEikkF1xehj9SPSNCIXop6+eJy+BWfJIIlr8X4Qvoh2NutK04nkzw==
+"@gmcotta/design-system-team-lp@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@gmcotta/design-system-team-lp/-/design-system-team-lp-1.1.1.tgz#236fffdd6564b04a138dddf0966e7f508487972d"
+  integrity sha512-wDp4AIQN4ltOrVGrKJg1XZZBUuPVCNBwPDcMd+XPAlw0/Beu5tbMri0lh9v0u8OyF1C6mOyEIRZ79xogXXLV5g==
   dependencies:
-    "@gmcotta/design-system-core" "^1.1.3"
+    "@gmcotta/design-system-core" "^1.1.4"
     "@testing-library/jest-dom" "^5.14.1"
     "@testing-library/react" "^12.0.0"
     "@testing-library/user-event" "^13.2.1"
