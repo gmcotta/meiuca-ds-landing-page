@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-
 import '@gmcotta/design-system-core/dist/components/header';
 import '@gmcotta/design-system-core/dist/components/heading';
 import '@gmcotta/design-system-core/dist/components/radio';
@@ -7,6 +6,8 @@ import '@gmcotta/design-system-core/dist/components/radio-group';
 import '@gmcotta/design-system-core/dist/components/switch';
 
 import { useTheme } from '../../ThemeContext';
+
+import './header.styles.scss';
 
 export default function AppHeader() {
   const { theme, handleTheme } = useTheme();
