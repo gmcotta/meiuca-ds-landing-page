@@ -10,7 +10,7 @@ import './home-banner.styles.scss';
 export default function AppHomeBanner() {
   return (
     <>
-      <div className="home-banner">
+      <section className="home-banner">
         <div className="container grid grid-cols-12 gap-x-1 md:gap-x-2 lg:gap-x-3">
           <div className="col-start-1 md:col-start-2 col-span-12 lg:col-start-2 col-span-10">
             <div className="home-banner-content">
@@ -24,7 +24,7 @@ export default function AppHomeBanner() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <div className="home-brand-bg">
       <div className="container grid grid-cols-12 gap-x-1 md:gap-x-2 lg:gap-x-3">
           <div className="col-start-1 md:col-start-2 col-span-10">

@@ -9,7 +9,7 @@ import './cards.styles.scss';
 
 export default function AppCards() {
   return (
-    <div className="section-cards">
+    <section className="section-cards">
       <div className="container grid grid-cols-12 gap-x-1 md:gap-x-2 lg:gap-x-3">
         <div className="col-start-1 md:col-start-2 col-span-10">
           <div className="cards-title">
@@ -51,6 +51,6 @@ export default function AppCards() {
           />
         </div>
       </div>
-    </div>
+    </section>
   )
 }
