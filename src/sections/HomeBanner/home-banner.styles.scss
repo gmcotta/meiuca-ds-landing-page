@@ -1,0 +1,72 @@
+.home-banner {
+  background-color: var(--neutral-color-surface-01);
+  &-content {
+    box-sizing: border-box;
+    height: 792px;
+    padding: var(--spacing-size-xl) 0 0;
+
+    @media screen and (min-width: 768px) {
+      height: 830px;
+      padding: var(--spacing-size-xxxl) 0;
+    }
+
+    dsc-tag {
+      display: block;
+      padding-bottom: var(--spacing-size-xxxs);
+    }
+
+    dsc-heading {
+      max-width: 684px;
+      display: block;
+      margin-bottom: var(--spacing-size-sm);
+      text-align: left;
+    }
+
+    dsc-paragraph {
+      &::part(typography) {
+        font-size: var(--font-size-sm);
+        line-height: var(--line-height-sm);
+      }
+      
+      max-width: 285px;
+      display: block;
+      text-align: left;
+      
+      @media screen and (min-width: 768px) {
+        max-width: 330px;
+      }
+    }
+  }
+}
+
+.home-brand-bg {
+  background-color: var(--brand-color-pure);
+  &-content {
+    position: relative;
+    height: 245px;
+
+    @media screen and  (min-width: 768px) {
+      height: 380px;
+    }
+
+    .octagon-banner {
+      position: absolute;
+      right: -125px;
+      bottom: 162px;
+
+      @media screen and (min-width: 768px) {
+        right: 0;
+        bottom: 193px;
+      }
+    }
+
+    .svg-arrow {
+      position: absolute;
+      margin-top: 46px;
+
+      @media screen and (min-width: 768px) {
+        margin-top: 114px;
+      }
+    }
+  }
+}
