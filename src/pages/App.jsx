@@ -1,3 +1,4 @@
+import AppCards from '../sections/Cards';
 import AppHeader from '../sections/Header';
 import AppHomeBanner from '../sections/HomeBanner';
 import { useTheme } from '../ThemeContext';
@@ -10,6 +11,7 @@ function App() {
     <div className="App" brand={theme.brand} theme="tema-1" mode={theme.mode}>
       <AppHeader />
       <AppHomeBanner />
+      <AppCards />
     </div>
   );
 }
