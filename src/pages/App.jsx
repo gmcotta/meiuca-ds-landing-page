@@ -1,6 +1,7 @@
 import AppCards from '../sections/Cards';
 import AppHeader from '../sections/Header';
 import AppHomeBanner from '../sections/HomeBanner';
+import AppScrollRotation from '../sections/ScrollRotation';
 import { useTheme } from '../ThemeContext';
 
 import './App.scss';
@@ -12,6 +13,7 @@ function App() {
       <AppHeader />
       <AppHomeBanner />
       <AppCards />
+      <AppScrollRotation />
     </div>
   );
 }

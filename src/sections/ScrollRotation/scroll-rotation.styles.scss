@@ -1,0 +1,45 @@
+.scroll-rotation-section {
+  padding-top: var(--spacing-size-xxxl);
+  padding-bottom: var(--spacing-size-xxxl);
+
+  @media screen and (min-width: 768px) {
+    padding-top: 201px;
+    padding-bottom: 208px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    dsc-heading {
+      padding-bottom: var(--spacing-size-xl);
+    }
+    
+    dsc-paragraph {
+      padding-top: var(--spacing-size-xl);
+    }
+
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      dsc-heading {
+        padding-bottom: 0;
+        padding-right: var(--spacing-size-lg);
+      }
+      
+      dsc-paragraph {
+        padding-top: 0;
+        padding-left: var(--spacing-size-lg);
+      }
+    }
+  }
+
+  svg {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
