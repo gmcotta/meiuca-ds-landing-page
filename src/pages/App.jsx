@@ -1,5 +1,6 @@
 import Divider from '../components/Divider';
 import AppCards from '../sections/Cards';
+import AppContact from '../sections/Contact';
 import AppHeader from '../sections/Header';
 import AppHomeBanner from '../sections/HomeBanner';
 import AppScrollRotation from '../sections/ScrollRotation';
@@ -16,6 +17,7 @@ function App() {
       <AppCards />
       <AppScrollRotation />
       <Divider />
+      <AppContact />
     </div>
   );
 }
