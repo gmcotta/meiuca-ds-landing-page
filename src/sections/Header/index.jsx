@@ -16,6 +16,7 @@ export default function AppHeader() {
   
   useEffect(() => {
     handleTheme(actualTheme, theme.brand, mode);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mode, actualTheme]);
 
   useEffect(() => {
