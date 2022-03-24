@@ -19,6 +19,19 @@ Abaixo encontra-se também o link para o projeto do design system e da landing p
 
 - [Figma](https://www.figma.com/file/ADrWGQ6GfDjIMKkWsJ65M0/DS-in-Code-%7C-Atividade-pr%C3%A1tica?node-id=2%3A3199)
 
+### Tecnologias
+- [React](https://reactjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [SASS](https://sass-lang.com/)
+
+### Componentes
+
+Os componentes abaixo foram criados exclusivamente para a página e não fazem parte do design system.
+- Arrow
+- Divider
+- OctagonBanner
+- VectorToRotate
+
 ***
 ### Como iniciar localmente a página
 
