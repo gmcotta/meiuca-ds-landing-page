@@ -1,7 +1,16 @@
 {
-  "name": "landing-page",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@gmcotta/meiuca-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page usando as bibliotecas de componentes feitas no curso de Design Systems para Desenvolvedores da Meiuca",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmcotta/meiuca-ds-landing-page"
+  },
+  "keywords": [
+    "design-system",
+    "landing-page",
+    "meiuca"
+  ],
   "dependencies": {
     "@gmcotta/design-system-team-lp": "^1.1.4",
     "@testing-library/jest-dom": "^5.14.1",
